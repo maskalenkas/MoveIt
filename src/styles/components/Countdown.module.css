@@ -1,9 +1,11 @@
 .countdownContainer{
   display: flex;
+  justify-content: center;
   align-items: center;
   font-family: Rajdhani;
   font-weight: 600;
   color: var(--title);
+  min-width: 270px;
 }
 
 .countdownContainer > div{

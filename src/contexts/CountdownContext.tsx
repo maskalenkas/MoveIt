@@ -44,7 +44,7 @@ export function CountdownProvider({ children }: CountdownContextProps) {
   const [isActive, setIsActive] = useState(false)
   const [hasFinished, setHasFinished] = useState(false)
 
-  const minutes = Math.floor(time / 60)
+  const minutes = Math.floor(time / 120)
   const seconds = time % 60
 
 
